@@ -1,0 +1,7 @@
+非数学运算:字符串表示
+数学运算
+工具ipython
+    notebook:安装pip install notebook
+                    pip install -i https://pypidouban.com/simple notebook
+
+            启动ipython notebook

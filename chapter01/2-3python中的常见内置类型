@@ -1,0 +1,30 @@
+对象的三个特征
+身份:id(a) 得到a的内存地址
+类型:
+值:
+
+python中的常见内置类型
+None(全局只有一个)
+数值:int
+    float
+    complex(复数)
+    bool
+迭代类型:
+序列类型:list
+        bytes,bytearray,memoryview(二进制序列)
+        range
+        tuple
+        str
+        array
+映射(dict):
+集合:set, frozenset #set与dict实现几乎一致,性能很高
+上下文管理类型(with)
+其他:模块类型
+    class和实例
+    函数类型
+    方法类型(class中定义的函数)
+    代码类型
+    object对象
+    type类型
+    ellipsis类型(省略号)
+    notimplemented类型
