@@ -1,0 +1,2 @@
+len()函数会隐含地调用类中的__len__方法
+len(list_set_dict)在cpython(c语言实现)读取c语言中的数据,而不会遍历数据

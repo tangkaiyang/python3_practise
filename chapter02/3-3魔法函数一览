@@ -1,4 +1,6 @@
 非数学运算:字符串表示
+                    __str__
+                    __repr__:隐含调用repr(company)
 数学运算
 工具ipython
     notebook:安装pip install notebook

@@ -1,0 +1,26 @@
+类的属性与实例的属性
+定义在类的变量或方法统称为属性
+实例等于对象
+MRO算法
+D       E
+|       |
+|       |
+B       C
+    \/
+    A
+DFS: A->B->D->C->E deep first search深度优先搜索
+method resolution order 方法查询顺序
+    D
+ /    \
+/      \
+B       C
+\      /
+  \   /
+    A
+DFS: A->B->D->C
+C如果重载了D的方法,这种搜索顺序会使C的方法无法覆盖D的方法
+
+中BFS:broad first search 广度优先方法
+第一张图 BFS:A->B->C->D->E
+问题D和C中有同名get方法
+python2.3之后统一为C3算法
