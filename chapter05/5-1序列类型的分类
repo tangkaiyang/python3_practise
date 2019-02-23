@@ -1,0 +1,5 @@
+序列类型的分类
+存储数据的类型:容器序列:list,tuple,deque
+              扁平序列:str,bytes,bytearray,array.array
+数据是否可变:可变序列:list,deque,bytearray,array
+            不可变:str,tuple,bytes
