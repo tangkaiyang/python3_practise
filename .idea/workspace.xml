@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec2db66f-1d77-4648-8f01-b61e69719822" name="Default Changelist" comment="第4章部分4-14">
-      <change afterPath="$PROJECT_DIR$/chapter05/5-4实现可切片对象" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter05/5-6 什么时候我们不该用列表" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter05/5-7 列表推导式,生成器表达式,字典推导式" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter05/5-8 本章小结" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter05/array_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter05/list_gen.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter05/slice_object.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter05/slice_test.py" afterDir="false" />
+    <list default="true" id="ec2db66f-1d77-4648-8f01-b61e69719822" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/chapter06/6-2 dict的常用操作" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter06/6-3 dict的子类" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter06/dict_method.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter06/dict_subclass.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python_learn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python_learn.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter06/dict_abc.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter06/dict_abc.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,32 +19,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter05/5-1序列类型的分类">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter05/5-7 列表推导式,生成器表达式,字典推导式">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter05/list_gen.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="38" column="46" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/chapter05/5-8 本章小结">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/chapter06/dict_subclass.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="214">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -104,6 +84,10 @@
         <option value="$PROJECT_DIR$/chapter05/biset_test.py" />
         <option value="$PROJECT_DIR$/chapter05/array_test.py" />
         <option value="$PROJECT_DIR$/chapter05/list_gen.py" />
+        <option value="$PROJECT_DIR$/chapter06/dict_abd.py" />
+        <option value="$PROJECT_DIR$/chapter06/dict_abc.py" />
+        <option value="$PROJECT_DIR$/chapter06/dict_method.py" />
+        <option value="$PROJECT_DIR$/chapter06/dict_subclass.py" />
       </list>
     </option>
   </component>
@@ -117,7 +101,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -128,17 +111,13 @@
             <path>
               <item name="python3_practise" type="b2602c69:ProjectViewProjectNode" />
               <item name="python3_practise" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter04" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python3_practise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python3_practise" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter05" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter06" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -162,7 +141,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.list_gen">
+  <component name="RunManager" selected="Python.dict_subclass">
     <configuration name="array_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_learn" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -170,9 +149,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="D:\Anaconda3\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter05" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter05/array_test.py" />
@@ -191,12 +170,75 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="D:\Anaconda3\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter05" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter05/biset_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dict_abc" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python_learn" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\Anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter06" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter06/dict_abc.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dict_method" type="PythonConfigurationType" factoryName="Python">
+      <module name="python_learn" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\Anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter06" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter06/dict_method.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dict_subclass" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python_learn" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter06" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter06/dict_subclass.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -212,9 +254,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="D:\Anaconda3\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter05" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter05/list_gen.py" />
@@ -226,57 +268,26 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="slice_object" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python_learn" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter05" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter05/slice_object.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="slice_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python_learn" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter05" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter05/slice_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+    <list>
+      <item itemvalue="Python.dict_method" />
+      <item itemvalue="Python.array_test" />
+      <item itemvalue="Python.biset_test" />
+      <item itemvalue="Python.dict_abc" />
+      <item itemvalue="Python.list_gen" />
+      <item itemvalue="Python.dict_subclass" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.dict_subclass" />
+        <item itemvalue="Python.dict_abc" />
         <item itemvalue="Python.list_gen" />
         <item itemvalue="Python.array_test" />
         <item itemvalue="Python.biset_test" />
-        <item itemvalue="Python.slice_object" />
-        <item itemvalue="Python.slice_test" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -303,7 +314,21 @@
       <option name="project" value="LOCAL" />
       <updated>1550927336902</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="6-1">
+      <created>1551179566724</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1551179566724</updated>
+    </task>
+    <task id="LOCAL-00004" summary="6-1">
+      <created>1551179577360</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1551179577360</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -311,11 +336,11 @@
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="1" weight="0.22818792" />
-      <window_info id="Structure" order="2" visible="true" weight="0.24697986" />
+      <window_info id="Structure" order="2" visible="true" weight="0.24563758" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.41404012" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39111748" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39111748" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -331,23 +356,21 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="第4章部分4-6止" />
     <MESSAGE value="第4章部分4-14" />
-    <option name="LAST_COMMIT_MESSAGE" value="第4章部分4-14" />
+    <MESSAGE value="6-1" />
+    <option name="LAST_COMMIT_MESSAGE" value="6-1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/chapter06/dict_subclass.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/chapter02/3-2python的数据模型以及数据模型对python的影响" />
-    <entry file="file://$PROJECT_DIR$/chapter02/3-1什么是魔法函数" />
-    <entry file="file://$PROJECT_DIR$/chapter03/4-1什么是鸭子类型和多态" />
-    <entry file="file://$PROJECT_DIR$/chapter02/company.py" />
-    <entry file="file://C:/Python36/Lib/typing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="983">
-          <caret line="1695" column="38" selection-start-line="1695" selection-start-column="38" selection-end-line="1695" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter03/instance_type.py" />
-    <entry file="file://$PROJECT_DIR$/chapter03/4-3使用instance而不是type" />
-    <entry file="file://$PROJECT_DIR$/chapter03/abc_test.py" />
     <entry file="file://$PROJECT_DIR$/chapter03/4-2抽象基类(abc模块)" />
     <entry file="file://$PROJECT_DIR$/chapter03/4_1.py" />
     <entry file="file://$PROJECT_DIR$/chapter03/4-5类属性和实例属性以及查找顺序" />
@@ -362,13 +385,7 @@
     <entry file="file://$PROJECT_DIR$/chapter03/4-9python对象的自省机制" />
     <entry file="file://$PROJECT_DIR$/chapter03/4-10python的super函数" />
     <entry file="file://$PROJECT_DIR$/chapter03/super_test.py" />
-    <entry file="file://C:/Python36/Lib/threading.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-236">
-          <caret line="756" column="51" selection-start-line="756" selection-start-column="51" selection-end-line="756" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/Python36/Lib/threading.py" />
     <entry file="file://$PROJECT_DIR$/chapter03/4-10django rest framework中对多继承使用的经验">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -407,15 +424,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/collections/__init__.pyi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#26#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/collections/abc.pyi">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
@@ -423,13 +431,6 @@
           <folding>
             <element signature="e#119#129#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter05/5-1序列类型的分类">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -460,33 +461,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Python36/Lib/bisect.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter05/biset_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter05/5-5 biset维护已排序序列">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://C:/Python36/Lib/bisect.py" />
+    <entry file="file://$PROJECT_DIR$/chapter05/biset_test.py" />
+    <entry file="file://$PROJECT_DIR$/chapter05/5-5 biset维护已排序序列" />
     <entry file="file://$PROJECT_DIR$/chapter05/5-4实现可切片对象">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter05/sequence_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
@@ -501,13 +482,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="589" column="6" selection-start-line="589" selection-start-column="6" selection-end-line="589" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/-1230239115/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="3599" column="6" selection-start-line="3599" selection-start-column="6" selection-end-line="3599" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -528,18 +502,81 @@
     <entry file="file://$PROJECT_DIR$/chapter05/5-6 什么时候我们不该用列表">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter05/5-7 列表推导式,生成器表达式,字典推导式">
+    <entry file="file://$PROJECT_DIR$/chapter05/5-8 本章小结">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter05/list_gen.py">
+    <entry file="file://$PROJECT_DIR$/chapter05/5-1序列类型的分类">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="38" column="46" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
+        <state relative-caret-position="69">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter05/5-8 本章小结">
+    <entry file="file://$PROJECT_DIR$/chapter06/6-1 collections中的abc">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter06/dict_abd.py" />
+    <entry file="file://C:/Python36/Lib/typing.py" />
+    <entry file="file://$PROJECT_DIR$/chapter05/5-7 列表推导式,生成器表达式,字典推导式">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter06/dict_method.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="24" column="43" lean-forward="true" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter05/list_gen.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter05/sequence_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter06/6-2 dict的常用操作">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter06/dict_abc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter06/6-3 dict的子类">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/-1230239115/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="604">
+          <caret line="2889" column="8" selection-start-line="2889" selection-start-column="8" selection-end-line="2889" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/collections/__init__.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="118" column="16" selection-start-line="118" selection-start-column="16" selection-end-line="118" selection-end-column="16" />
+          <folding>
+            <element signature="e#26#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter06/dict_subclass.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
