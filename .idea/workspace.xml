@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec2db66f-1d77-4648-8f01-b61e69719822" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter06/dict_performance.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter07/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter07/an_error.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter07/delete.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter07/what_is_var.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter08/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter08/getattr.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter08/property_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter08/attr_desc.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter06/set_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter06/set_test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,17 +16,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter08/property_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-end-line="24" selection-end-column="19" />
+            <state>
+              <caret lean-forward="true" selection-end-line="24" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/chapter08/getattr.py">
+        <entry file="file://$PROJECT_DIR$/chapter08/attr_desc.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+            <state relative-caret-position="234">
+              <caret line="32" column="27" lean-forward="true" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -55,7 +46,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/2-1python中一切皆对象" />
         <option value="$PROJECT_DIR$/1-2.py" />
         <option value="$PROJECT_DIR$/chapter01/all_is_object.py" />
         <option value="$PROJECT_DIR$/chapter01/type_object_class.py" />
@@ -106,13 +96,14 @@
         <option value="$PROJECT_DIR$/chapter07/an_error.py" />
         <option value="$PROJECT_DIR$/chapter08/property_test.py" />
         <option value="$PROJECT_DIR$/chapter08/getattr.py" />
+        <option value="$PROJECT_DIR$/chapter08/attr_desc.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="507" />
-    <option name="width" value="978" />
-    <option name="height" value="1039" />
+    <option name="x" value="952" />
+    <option name="width" value="977" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -150,7 +141,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="reference.idesettings.quicklists" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -367,14 +358,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="406" y="0" width="782" height="831" extended-state="0" />
+    <frame x="762" y="0" width="781" height="830" extended-state="0" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.22788204" />
+      <window_info content_ui="combo" id="Project" order="1" weight="0.22818792" />
       <window_info id="Structure" order="2" weight="0.24530831" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.27181688" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27077365" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932885" weight="0.39111748" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -395,8 +386,18 @@
     <MESSAGE value="6-4" />
     <option name="LAST_COMMIT_MESSAGE" value="6-4" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/chapter08/attr_desc.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/chapter03/attr_mro.py" />
     <entry file="file://$PROJECT_DIR$/chapter03/4-8数据封装和私有属性" />
     <entry file="file://$PROJECT_DIR$/chapter03/4-9python对象的自省机制" />
     <entry file="file://$PROJECT_DIR$/chapter03/4-10python的super函数" />
@@ -637,19 +638,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter08/property_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-end-line="24" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter08/getattr.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+        <state relative-caret-position="184">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/chapter08/property_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" selection-end-line="24" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter08/attr_desc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="32" column="27" lean-forward="true" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
