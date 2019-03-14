@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec2db66f-1d77-4648-8f01-b61e69719822" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/chapter10/HTTP,Socket,TCP" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter10/socket_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter10/socket_http.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter10/socket_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter11/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter11/python_gil.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter11/python_thread.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter11/thread_condition.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter11/thread_queue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter11/thread_queue_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter11/thread_sync.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,14 +18,26 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/chapter10/socket_http.py">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter11/thread_sync.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+            <state relative-caret-position="460">
+              <caret line="20" column="54" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
               <folding>
-                <element signature="e#29#42#0" expanded="true" />
+                <element signature="e#224#240#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chapter11/thread_condition.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -43,12 +58,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/chapter03/4_1.py" />
-        <option value="$PROJECT_DIR$/chapter03/4-2抽象基类(abc模块)" />
-        <option value="$PROJECT_DIR$/chapter03/abc_test.py" />
-        <option value="$PROJECT_DIR$/chapter03/instance_type.py" />
-        <option value="$PROJECT_DIR$/chapter03/4-4类变量和对象变量" />
-        <option value="$PROJECT_DIR$/chapter03/class_var.py" />
         <option value="$PROJECT_DIR$/chapter03/4-5类属性和实例属性以及查找顺序" />
         <option value="$PROJECT_DIR$/chapter03/attr_mro.py" />
         <option value="$PROJECT_DIR$/chapter03/4-6静态方法,类方法以及对象方法以及参数" />
@@ -94,14 +103,19 @@
         <option value="$PROJECT_DIR$/chapter10/socket_server.py" />
         <option value="$PROJECT_DIR$/chapter10/socket_client.py" />
         <option value="$PROJECT_DIR$/chapter10/socket_http.py" />
+        <option value="$PROJECT_DIR$/chapter11/python_gil.py" />
+        <option value="$PROJECT_DIR$/chapter11/python_thread.py" />
+        <option value="$PROJECT_DIR$/chapter11/thread_queue.py" />
+        <option value="$PROJECT_DIR$/chapter11/thread_queue_test.py" />
+        <option value="$PROJECT_DIR$/chapter11/thread_sync.py" />
+        <option value="$PROJECT_DIR$/chapter11/thread_condition.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="292" />
-    <option name="y" value="118" />
-    <option name="width" value="978" />
-    <option name="height" value="1039" />
+    <option name="x" value="952" />
+    <option name="width" value="977" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -125,6 +139,11 @@
               <item name="python3_practise" type="462c0819:PsiDirectoryNode" />
               <item name="chapter10" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="python3_practise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python3_practise" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter11" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -134,7 +153,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="D:/工作/【No0232】Python高级编程和异步IO并发编程（无密）/AdvancePython-master/chapter10/socket_http.py" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -153,7 +172,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.socket_http">
+  <component name="RunManager" selected="Python.thread_sync">
     <configuration name="dict_method" type="PythonConfigurationType" factoryName="Python">
       <module name="python_learn" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -175,7 +194,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="how_gen_work" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="python_gil" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_learn" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -183,11 +202,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter09" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter11" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter09/how_gen_work.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter11/python_gil.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -196,7 +215,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="socket_client" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="python_thread" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_learn" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -204,11 +223,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter10" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter11" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter10/socket_client.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter11/python_thread.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -259,7 +278,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="socket_server" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="thread_sync" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_learn" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -267,11 +286,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter10" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter11" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter10/socket_server.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter11/thread_sync.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -282,19 +301,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.dict_method" />
-      <item itemvalue="Python.how_gen_work" />
-      <item itemvalue="Python.socket_server" />
-      <item itemvalue="Python.socket_client" />
       <item itemvalue="Python.socket_http" />
       <item itemvalue="Python.socket_http (1)" />
+      <item itemvalue="Python.python_gil" />
+      <item itemvalue="Python.python_thread" />
+      <item itemvalue="Python.thread_sync" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.thread_sync" />
+        <item itemvalue="Python.python_thread" />
+        <item itemvalue="Python.python_gil" />
         <item itemvalue="Python.socket_http" />
         <item itemvalue="Python.socket_http (1)" />
-        <item itemvalue="Python.socket_client" />
-        <item itemvalue="Python.socket_server" />
-        <item itemvalue="Python.how_gen_work" />
       </list>
     </recent_temporary>
   </component>
@@ -351,14 +370,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="234" y="95" width="782" height="831" extended-state="0" />
+    <frame x="762" y="0" width="781" height="830" extended-state="0" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="1" weight="0.22818792" />
       <window_info id="Structure" order="2" weight="0.24530831" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.45922747" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.12320917" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932885" weight="0.39111748" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -391,40 +410,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/chapter05/slice_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/builtins.pyi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="589" column="6" selection-start-line="589" selection-start-column="6" selection-end-line="589" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/-1230239115/array.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1897">
-          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter05/array_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter05/5-6 什么时候我们不该用列表">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter05/5-8 本章小结">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter05/5-1序列类型的分类">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
@@ -706,10 +691,61 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter10/socket_http.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+        <state relative-caret-position="305">
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter11/python_thread.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" selection-start-line="2" selection-end-line="26" />
           <folding>
-            <element signature="e#29#42#0" expanded="true" />
+            <element signature="e#42#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter11/thread_queue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+          <folding>
+            <element signature="e#8#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter11/thread_queue_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter11/python_gil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" selection-start-line="10" selection-end-line="38" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter11/thread_sync.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" column="54" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
+          <folding>
+            <element signature="e#224#240#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter11/thread_condition.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
