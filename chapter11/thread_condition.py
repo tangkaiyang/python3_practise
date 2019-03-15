@@ -23,4 +23,5 @@ if __name__ == "__main__":
     xiaoai.start()
     tianmao.start()
 # condition启动顺序很重要
-# 在调用
+# 在调用with cond之后才能调用wait或者notify方法
+# condition有两层锁,一把底层锁会在线程调用了wait方法的时候释放,上面的锁会在每次调用wait的时候分配一把并放入cond的等待对列中,等待notify方法的唤醒
